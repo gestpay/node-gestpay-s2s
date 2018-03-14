@@ -10,6 +10,7 @@ soap.createClientAsync(url)
             uicCode: '242',
             amount: '13.07',
             shopTransactionId: 'abcdef',
+            tokenValue: '47L76F84UBQK2026'
         });
     }).then((result) => {
         console.log(result);
